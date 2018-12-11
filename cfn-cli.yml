@@ -1,0 +1,11 @@
+Version: 3
+
+Stages:
+  Default:
+    GeoLamb:
+      Template: .aws-sam/build/template.yaml
+      StackName: GeoLambHelloWorld
+      Region: us-east-1
+      StackPolicy: ALLOW_ALL
+      Capabilities: [CAPABILITY_IAM]
+      Package: true
