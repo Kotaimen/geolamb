@@ -43,7 +43,7 @@ After everything is deployed, check stack output:
     Outputs: 
       HelloWorldFunctionIamRole: arn:aws:iam::1234567890:role/GeoLambHelloWorld-HelloWorldFunctionRole-XXXXXXXXX
       HelloWorldApi: https://XXXXXXXXX.execute-api.us-east-1.amazonaws.com/Prod/hello/
-      HelloWorldFunction: arn:aws:lambda:us-east-1:877602539438:function:GeoLambHelloWorld-HelloWorldFunction-XXXXXXXXX
+      HelloWorldFunction: arn:aws:lambda:us-east-1:1234567890:function:GeoLambHelloWorld-HelloWorldFunction-XXXXXXXXX
     Exports: 
 
 
